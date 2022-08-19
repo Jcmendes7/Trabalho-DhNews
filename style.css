@@ -1,0 +1,80 @@
+
+
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgb(24, 23, 23);
+}
+
+.cabecalho{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+
+.conteudo{
+    flex: 1 0 auto;
+}
+
+.rodape{
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.logoredes{
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.logoredes img {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.redes{
+    width: 100%;
+    text-align: center;
+
+}
+
+.redes img {
+    width: 18%;
+
+}
+
+.redes ul li {
+    list-style: none;
+    display: inline;
+}
+
+.logoredes img, .redes img {
+    width: 5%;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+h1{
+    color: red;
+}
+
+.rodape div {
+    text-align: left;
+}
